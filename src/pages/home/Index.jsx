@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <div className='h-[92vh] w-full flex justify-center'>
-        <div className='p-5 w-full md:w-3/4 h-full flex justify-center items-center'>
+        <div className='p-5 w-full xl:w-4/6 h-full flex justify-center items-center'>
           <div className='bg-gray-100 h-full w-full rounded-md flex flex-col md:flex-row-reverse md:items-center'>
             <div className='w-full h-1/2 flex justify-center items-center'>
               <h1 className='text-blue-500'>
@@ -38,8 +38,8 @@ const Home = () => {
       </div>
 
       <div className='h-[92vh] w-full flex justify-center'>
-        <div className='p-5 w-full md:w-3/4 h-full flex justify-center items-center'>
-          <div className='bg-gray-100 h-full w-full rounded-md flex flex-col md:flex-row md:items-center'>
+        <div className='p-5 w-full xl:w-4/6 h-full flex justify-center items-center'>
+          <div className='bg-gray-100 md:px-5 h-full w-full rounded-md flex flex-col md:flex-row md:items-center'>
             <div className='w-full h-1/2 flex justify-center items-center'>
               <h1 className='text-blue-500'>
                 <span className='text-2xl md:text-5xl'>

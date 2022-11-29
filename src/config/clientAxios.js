@@ -1,7 +1,7 @@
 import axios from "axios";
-
+import env from "react-dotenv";
 const clientAxios = axios.create({
-  baseURL: `${process.env.BACKEND_URL}`,
+  baseURL: `${env.API_URL}`,
 });
 
 export default clientAxios;
