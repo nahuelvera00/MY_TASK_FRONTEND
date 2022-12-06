@@ -41,7 +41,7 @@ const Login = () => {
       setAlert({});
       localStorage.setItem("token", data.token);
       setAuth(data);
-      navigate("/home");
+      navigate("/app");
     } catch (error) {
       setAlert({
         msg: error.response.data.msg,

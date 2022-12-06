@@ -185,10 +185,10 @@ const SignUp = () => {
         />
 
         <p className='font-lato flex justify-center py-4'>
-          Don't have an account?{" "}
+          You already have an account?
           <Link className='text-blue-500 hover:text-blue-600' to='sign-up'>
             {" "}
-            Sign Up
+            Sign In
           </Link>
         </p>
       </form>
